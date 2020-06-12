@@ -1,0 +1,20 @@
+.Infowindow{
+    background: teal;
+    display: inline-block;
+    padding: 2em;
+    color:white;
+    position:relative;
+    width:20vw;  
+}
+
+.close:before {
+content: '✕';
+      }
+
+.close{
+    position:absolute;
+    top:0; 
+    right:0; 
+    cursor: pointer;
+    padding-right:3px;
+}
