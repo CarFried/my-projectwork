@@ -26,7 +26,7 @@ const blog = [
         text: "Kigali ist die Hauptstadt Ruandas. Sie liegt ungefähr in der Mitte des Landes und erstreckt sich über mehrere Hügel, Grate und Täler. Die Stadt bietet eine lebhafte Restaurantszene und ein reges Nachtleben.",
         author: "Carlotta Friedmann",
         author_image: "public/images/author_image1.jpg",
-        date: "Jan 18, 2020",
+        date: "Jan 19, 2020",
         location: {
           city: "Kigali",
           country: "Rwanda",
@@ -43,7 +43,7 @@ const blog = [
         text: "Der Kiwusee oder Kivusee ist ein See in Zentralafrika. Durch ihn verläuft die Grenze zwischen Ruanda und der Demokratischen Republik Kongo..",
         author: "Carlotta Friedmann",
         author_image: "public/images/author_image1.jpg",
-        date: "Jan 18, 2020",
+        date: "Jan 20, 2020",
         location: {
           city: "lake kivu",
           country: "Rwanda",
@@ -61,7 +61,7 @@ const blog = [
         text: "Rusizi, in der Nähe von Lake Kivu ist bevölkert von Fischern. Der See ist die Lebensader der Stadt.",
         author: "Carlotta Friedmann",
         author_image: "public/images/author_image1.jpg",
-        date: "Jan 18, 2020",
+        date: "Jan 21, 2020",
         location: {
           city: "Rusizi",
           country: "Rwanda",
@@ -79,7 +79,7 @@ const blog = [
         text: "Ngoma ist sein geeignetes Ziel für relaxte Tage im Hinterland von Ruanda.",
         author: "Carlotta Friedmann",
         author_image: "public/images/author_image1.jpg",
-        date: "Jan 18, 2020",
+        date: "Jan 22, 2020",
         location: {
           city: "Ngoma",
           country: "Rwanda",
@@ -98,7 +98,7 @@ const blog = [
         text: "Nyanza bedeutet in der Sprache der im angrenzenden Tansania lebenden Sukuma „große Wassermasse.",
         author: "Carlotta Friedmann",
         author_image: "public/images/author_image1.jpg",
-        date: "Jan 18, 2020",
+        date: "Jan 23, 2020",
         location: {
           city: "Nyanza",
           country: "Rwanda",
@@ -118,7 +118,7 @@ const blog = [
         text: "Der Nyungwe-Wald ist ein immergrüner Bergregenwald im Südwesten Ruandas und gilt als der größte zusammenhängende Bergwald in Ost- und Zentralafrika.",
         author: "Carlotta Friedmann",
         author_image: "public/images/author_image1.jpg",
-        date: "Jan 18, 2020",
+        date: "Jan 24, 2020",
         location: {
           city: "Nyungwe National Park",
           country: "Rwanda",
@@ -136,7 +136,7 @@ const blog = [
         text: "Der Vulkan-Nationalpark ist ein etwa 13.000 Hektar großer Nationalpark im Nordwesten Ruandas.",
         author: "Carlotta Friedmann",
         author_image: "public/images/author_image1.jpg",
-        date: "Jan 18, 2020",
+        date: "Jan 25, 2020",
         location: {
           city: "Volcano National Park",
           country: "Rwanda",

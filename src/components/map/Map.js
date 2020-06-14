@@ -27,7 +27,7 @@ import Infowindow from '../infoWindow/Infowindow.js'
           defaultZoom={8}
           options={{styles: mapStyles}}
         >
-         {blog.map(place => (<Marker lat={place.location.lat} lng={place.location.lng} showInfo={(event => handleShowInfo(place))}></Marker>))}
+         {blog.map(place => (<Marker lat={place.location.lat} lng={place.location.lng} key={place.date} showInfo={(event => handleShowInfo(place))}></Marker>))}
          {selected &&(
         
         <Infowindow 
