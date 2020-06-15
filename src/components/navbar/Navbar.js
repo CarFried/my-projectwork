@@ -1,17 +1,16 @@
-import React from 'react';
+import React,{useContext} from 'react';
 import Logo from './Logo.js'
 import Button from '../button/Button.js'
 import history from './../../history'
 import app from '../../firebase'
+import AuthContext from '../Provider/AuthProvider'
 
 
 
 
 const Navbar= () => {
 
-
-  let currentUser = false; 
-
+const {currentUser} = useContext(AuthContext)
 
 
   const openLogin = (e)=>{
@@ -23,6 +22,7 @@ const Navbar= () => {
 
   const openDashboard = (e)=>{
     e.preventDefault();
+    app.auth().signOut()
     history.push('/')
     console.log("it worked again")
   }

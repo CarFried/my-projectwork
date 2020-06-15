@@ -21,3 +21,5 @@ return (
 
 )
 }
+
+export default AuthContext

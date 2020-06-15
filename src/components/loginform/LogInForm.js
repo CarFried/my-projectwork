@@ -2,6 +2,7 @@ import React, { useState} from 'react';
 import app from "../../firebase"
 import Button from '../button/Button.js'
 import './logIn.css'
+import history from './../../history'
 
 
 const LogInForm = () => {
@@ -10,12 +11,15 @@ const LogInForm = () => {
     const [password, setPassword] = useState('')
     const [error,setError]= useState(null);
   
+//Alternative/formsubmit
 
-
-    const loginProcess = async ({ event,email, password }) => {
+    const loginProcess = async (event) => {
+      console.log(event)
       event.preventDefault()
       try {
         await app.auth().signInWithEmailAndPassword(email, password)
+        setError(null)
+        history.push('/')
       } catch (e) {
         setError("Error signing in with password and email!")
       }
@@ -23,8 +27,7 @@ const LogInForm = () => {
 
 
 
-  
-  
+
   const logInHandler = (event) => {
     const {id, value} = event.currentTarget;
     console.log(event.currentTarget)
@@ -62,7 +65,7 @@ const LogInForm = () => {
          <p id="errorMessage" className="text-red-500 text-xs italic">{error}</p>
         </div>
         <div className="flex items-center justify-between">
-          <Button onClick= {loginProcess} type="submit" btype="basic" text="submit" />
+          <Button handleclick={loginProcess} type="button" btype="basic" text="submit" />
         </div>
       </form>
       <p className="text-center text-gray-500 text-xs">

@@ -17,13 +17,14 @@ import Infowindow from '../infoWindow/Infowindow.js'
      setSelected(null)
    }
   
+   const Ruanda= {lat:-1.9437057, lng:29.8805778}
   return (
     <div className="App">
       <div className="Map" style={{height:"100vh", width:"50vw", justifyContent:"end"}}>
         
         <GoogleMapReact
           bootstrapURLKeys={{ key: 'AIzaSyCpodsEkNPK4mclJvMBnMrwOajRKB3g6yo' }}
-          defaultCenter={blog[0].location}
+          defaultCenter={Ruanda}
           defaultZoom={8}
           options={{styles: mapStyles}}
         >
