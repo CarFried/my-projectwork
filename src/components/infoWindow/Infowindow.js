@@ -11,7 +11,7 @@ const Infowindow =({title,date,author,closeInfo,author_image}) => {
       <br/>
     <div className="flex justify-between">
       <h3 className='font-medium text-sm'>visiting date:</h3>
-      <h3 className='font-medium text-sm'>{date}</h3>
+      <h3 className='font-medium text-sm'>{date.toDateString()}</h3>
       </div>
       <div className="flex justify-between">
       <h3 className='font-medium text-sm'>{author}</h3>

@@ -12,7 +12,7 @@ function Blogpreview({image,alt,title,author,date,}) {
   <img className="w-10 h-10 rounded-full mr-4" src='/images/author_image.jpg' alt= 'Carlotta Friedmann'/>
   <div className="text-sm">
     <p className="text-teal-300 leading-none">{author}</p>
-    <p className="text-teal-300">{date}</p>
+    <p className="text-teal-300">{date.toDateString()}</p>
   </div>
   </div>
  </div>
