@@ -24,7 +24,7 @@ function Map() {
       <div className="Map" style={{ height: "100vh", width: "50vw", justifyContent: "end" }}>
 
         <GoogleMapReact
-          bootstrapURLKeys={{ key: 'AIzaSyCpodsEkNPK4mclJvMBnMrwOajRKB3g6yo' }}
+          bootstrapURLKeys={{ key: '' }}
           defaultCenter={blog[0].location}
           defaultZoom={12}
           options={{ styles: mapStyles }}
