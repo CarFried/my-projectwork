@@ -1,5 +1,7 @@
 import React from 'react';
 
+//displays logo
+
 function Logo() {
   return (
     <div className="App">

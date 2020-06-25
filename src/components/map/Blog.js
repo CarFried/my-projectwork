@@ -1,6 +1,6 @@
 
 const blog = [
-    {
+    {   id: 1,
         title: "Akagera National Park",
         image: {
           src: "/images/Akagera National Park Kopie.jpg",
@@ -18,7 +18,7 @@ const blog = [
     
         }
       },
-      {
+      { id: 2,
         title: "Kigali",
         image: {
           src: "/images/Kigali Kopie.jpg",
@@ -35,7 +35,7 @@ const blog = [
           lng: 30.05885,
         }
       },
-      {
+      { id: 3,
         title: "lake kivu",
         image: {
           src: "/images/lake-kivu Kopie.jpg",
@@ -53,7 +53,7 @@ const blog = [
     
         }
       },
-      {
+      { id:4,
         title: "Rusizi",
         image: {
           src: "/images/Rusizi Kopie.jpg",
@@ -71,7 +71,7 @@ const blog = [
     
         }
       },
-      {
+      { id:5,
         title: "Ngoma",
         image: {
           src: "/images/Ngoma Kopie.jpg",
@@ -90,7 +90,7 @@ const blog = [
         }
     
       },
-      {
+      { id:6,
         title: "Nyanza",
         image: {
           src: "/images/Nyanza Kopie.jpg",
@@ -110,7 +110,7 @@ const blog = [
     
     
       },
-      {
+      { id:7,
         title: "Nyungwe National Park",
         image: {
           src: "/images/Nyungwe National Park Kopie.jpg",
@@ -128,7 +128,7 @@ const blog = [
     
         }
       },
-      {
+      { id:8,
         title: "Volcano National Park",
         image: {
           src: "/images/Volcano National Park Kopie.jpg",

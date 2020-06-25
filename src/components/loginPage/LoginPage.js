@@ -3,9 +3,11 @@ import Dashboard from '../dashboard/Dashboard.js'
 import LoginForm from '../loginform/LogInForm.js'
 
 
+//returns LoginPage
+function LoginPage(closeClick) {
 
 
-function LoginPage() {
+
   return (
     <div className="App">
        <div className="Login">

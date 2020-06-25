@@ -1,25 +1,25 @@
 import React from 'react';
-import './App.css';
 
+//full blog shown on the details page
 
-function BlogFull() {
+function BlogFull({image,alt,title,text,author_image,author,date,city,country}) {
   return (
-<div class="container mx-auto max-w-sm rounded overflow-hidden  justify-center bg-teal-800 m-6">
-<img class="w-full" src={json.image.src} alt={json.image.alt}/>
-<div class="px-6 py-4">
-<div class="font-bold text-xl text-white mb-2">{json.title}</div>
-<p class="text-white text-base"> 
-  {json.text}
+<div className="container mx-auto max-w-sm rounded overflow-hidden  justify-center bg-teal-800 m-6">
+<img className="w-full" src={image} alt={alt}/>
+<div className="px-6 py-4">
+<div className="font-bold text-xl text-white mb-2">{title}</div>
+<p className="text-white text-base"> 
+  {text}
 </p>
 </div>
-<div class="px-6 py-4 flex items-center">
-  <img class="w-10 h-10 rounded-full mr-4" src={json.author_image} alt={json.author}/>
-  <div class="text-sm">
-    <p class="text-teal-300 leading-none">{json.author}</p>
-    <p class="text-teal-300">{json.date}</p>
+<div className="px-6 py-4 flex items-center">
+  <img className="w-10 h-10 rounded-full mr-4" src={author_image} alt={author}/>
+  <div className="text-sm">
+    <p className="text-teal-300 leading-none">{author}</p>
+    <p className="text-teal-300">{date.toDateString()}</p>
   </div>
   </div>
- <div class="px-6 py-4 text-white">{json.location.city},{json.location.country}</div>
+ <div className="px-6 py-4 text-white">{city},{country}</div>
  </div>
   );
 }

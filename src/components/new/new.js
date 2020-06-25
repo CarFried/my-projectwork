@@ -11,7 +11,6 @@ function New() {
       <div className="App">
        {currentUser ? <Blogform text="hello"/> :
            <Redirect to={'/Login'}/>}
-
     </div>
     );
   }
